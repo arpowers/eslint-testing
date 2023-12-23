@@ -1,0 +1,20 @@
+{
+  "name": "eslint-testing",
+  "type": "module",
+  "version": "6.0.4",
+  "license": "MIT",
+  "main": "index.ts",
+  "scripts": {
+    "lint:dev": "npm exec -- eslint . --fix"
+  },
+  "dependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.4.6",
+    "eslint": "^8.56.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5"
+  }
+}
